@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imagenes/inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main__div--logos{
+    font-size: 50px;
+    justify-self: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.main__div--sesion{
+    margin-right: 250px;    
+}
+
+.main__div--inf{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.main__div--inf > a{
+    color: #000;
+}
+
+.main__div--session-signuo{
+    margin-top: 10px;
+}
+
+.diva{
+    width: 180px;
+    height: 70px;
+    border: 2px solid #000;
+    text-align: center;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #ffdd99;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+
+.diva > a{
+    color: #fff ;
+}
+
+.diva:hover{
+    background-color: #ffcc66;
+    color: #f2f2f2 ;
+    border: 2px solid lightblue;
+}
+
+.main__div--sentence{
+    text-align: center;
+    margin-right: 115px;
+    margin-top: -50px;
+    width: 400px;
+    height: 80px;
+    border: 10px double #fff;
+}
+.main__div--sentence > h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
