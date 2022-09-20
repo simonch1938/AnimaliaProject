@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #1aff1a ;
+}
+.header a img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: calc(100vh - 80px);
+    justify-items: center;
+}
+
+.form{
+    padding: 80px;
+    background-color: #e6ffe6;
+}
+
+.contenido--form_phrase{
+    text-align: center;
+}
+
+
+.contenido--form_inputs{
+    margin-top: 50px;
+}
+.contenido--form_inputs input{
+    padding: 8px;
+    background-color: #f2f2f2;
+    outline: 2px solid #f2f2f2;
+}
+
+
+.names{
+    width: 49.5%;
+}
+.others{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.img{
+    overflow: hidden;
+}
