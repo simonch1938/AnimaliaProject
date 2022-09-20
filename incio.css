@@ -1,0 +1,59 @@
+
+body{
+    background-color: #33ff33;
+}
+.flex-container{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #00e64d;
+    height: 550px;
+    flex-wrap: wrap;
+}
+
+.phrase{
+    margin-top: -100px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.formulario{
+    flex: 1;
+    min-width: 400px;
+    text-align: center;
+}
+
+.form-input{
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    background-color: #99ff99;
+}
+
+.form-input:focus{
+    outline: 1px solid #40ff00;
+}
+
+.usuario{
+    margin: 10px;
+}
+
+.logo{
+    flex: 1;
+    text-align: center;
+    min-width: 400px;
+}
+
+.logo > img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.letra{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ingresar{
+    width: 80px;
+}
