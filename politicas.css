@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #134d00 ;
+}
+.header a img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.contenedor{
+    padding: 10px 150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor > h1{
+    text-align: center;
+}
+
+li{
+    padding-left: 10px;
+}

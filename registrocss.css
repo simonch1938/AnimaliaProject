@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: center;
-    background-color: #1aff1a ;
+    background-color: #134d00 ;
 }
 .header a img{
     width: 80px;
@@ -17,12 +17,12 @@
 
 .form{
     padding: 80px;
-    background-color: #e6ffe6;
+    background-color: #f2f2f2;
 }
 
 .contenido--form_phrase{
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ms Madi', cursive;
 }
 
 

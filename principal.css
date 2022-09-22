@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #134d00 ;
+}
+.header a img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.container-grid{
+    display: grid;
+    width: 1000px;
+    grid-template-rows: repeat(4,350px);
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+.grid-item{
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: scale 1s;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item:hover{
+    scale: 1.1;
+}

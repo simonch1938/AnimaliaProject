@@ -1,21 +1,21 @@
 
 body{
-    background-color: #33ff33;
+    background-color: #fff;
 }
 .flex-container{
     display: flex;
     margin: 50px;
     align-items: center;
     justify-content: center;
-    border: 5px solid #00e64d;
     height: 550px;
     flex-wrap: wrap;
 }
 
 .phrase{
     margin-top: -100px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ms Madi', cursive;
     text-align: center;
+    font-size: 22px;
 }
 
 .formulario{
@@ -28,7 +28,6 @@ body{
     padding: 5px;
     margin: 5px;
     width: 300px;
-    background-color: #99ff99;
 }
 
 .form-input:focus{
