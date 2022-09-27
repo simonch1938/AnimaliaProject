@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="AprendiendoNormalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/logo-web.ico">
+    <script src="https://kit.fontawesome.com/5d086663a9.js" crossorigin="anonymous"></script>
+    <title>Registrate</title>
+</head>
+<body>
+    <header class="header">
+    <a href="index.html" class="header--a"><img src="imagenes/logo-web.jpeg" alt="" class="header--a_img"></a>
+    </header>
+    <div class="contenido" >  
+        <form class="form" id="formulario">
+            <div class="contenido--form_phrase">
+                <h1>
+                    Unete a esta gran comunidad amante del reino animal
+                </h1>
+                <h3>Comparte tus fotos preferidas acerca de lo que mas amas</h3>    
+            </div>
+            <hr>
+            <div class="formulario__grupo  formulario__primer-input" id="grupo__usuario">
+                <div class="formulario__grupo-input">
+                    <input type="text" name="usuario" class="formulario__input" id="usuario" placeholder="Usuario">
+                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error"><b>El usuario debe tener entre 4 y 16 digitos</b></p>
+            </div>
+            <div class="formulario__grupo" id="grupo__nombre">
+                <div class="formulario__grupo-input">
+                    <input type="text" name="nombre" class="formulario__input" id="nombre" placeholder="Nombre">
+                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error"><b>El nombre no puede contener numeros</b></p>
+            </div>
+            <div class="formulario__grupo" id="grupo__correo">
+                <div class="formulario__grupo-input">
+                    <input type="email" name="correo" class="formulario__input" id="correo" placeholder="Correo electronico">
+                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error"><b>El correo electronico NO es valido</b></p>
+            </div>
+            <div class="formulario__grupo" id="grupo__password">
+                <div class="formulario__grupo-input">
+                    <input type="password" name="password" class="formulario__input" id="password" placeholder="Contraseña">
+                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error"><b>El contraseña debe tener entre 8 y 16 digitos</b></p>
+            </div>
+            <div class="formulario__grupo" id="grupo__password-repeat">
+                <div class="formulario__grupo-input">
+                    <input type="password" name="password-repeat" class="formulario__input" id="password-repeat" placeholder="Repetir contraseña">
+                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error"><b>Las contraseñas no coinciden</b></p>
+            </div>
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label class="formulario__checkbox">
+                    <input type="checkbox" class="formulario__checkbox" name="terminos" id="terminos"> acepto <a href="politicas.html" target="_blank">condiciones y politica de privacidad</a>
+                </label>                    
+            </div>
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error</b> Rellene el formulario correctamente</p>
+            </div>
+            <div class="formulario__grupo formulario__grupo-button-submit">
+                <button type="submit" class="formulario__boton">Crear cuenta</button>
+            </div>
+        </form>
+        <div class="contenido--img">
+            <img src="imagenes/registro1.jpg" alt="">
+        </form>  
+    </main>
+    
+    
+    <script src="validation-register.js"></script>
+</body>
+</html>
